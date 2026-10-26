@@ -5,17 +5,59 @@
 }
 
 body {
-  background-color: black;
+  font-family: sans-serif;
 }
 
 header {
   background-color: #fffeff;
   display: flex;
   justify-content: space-between;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  align-items: center;
 }
 
 ul {
   display: flex;
   list-style-type: none;
-  gap: 12px;
+  gap: 20px;
+}
+
+.logo {
+  font-size: 30px;
+  font-weight: bold;
+  font-family: "Yarndings 12", system-ui;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  text-transform: capitalize;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.trans-btn {
+  border: 0;
+  background-color: inherit;
+  font-weight: 550;
+  text-transform: capitalize;
+}
+
+.btn-container {
+  display: flex;
+  gap: 25px;
+}
+
+.black-btn {
+  border-radius: 20px;
+  padding: 10px;
+  background-color: #171715;
+  color: white;
+  border: 0;
+  font-weight: 550;
 }
